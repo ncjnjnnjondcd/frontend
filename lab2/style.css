@@ -1,0 +1,122 @@
+.phone-card h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #475569;
+}
+
+
+.phone-pos {
+    position: relative;
+    width: 140px;
+    height: 250px;
+    background-color: #d1e2b8;
+    border: 2px solid #222222;
+    border-radius: 30px;
+}
+
+.screen-pos {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 106px;
+    height: 110px;
+    background-color: #ffffff;
+    border: 2px solid #222222;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0b4f8c;
+}
+
+.keypad-pos {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    width: 100px;
+    height: 90px;
+}
+
+.btn-pos {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: #382c47;
+    border-radius: 50%;
+    border: 1.5px solid #111111;
+}
+
+
+.btn-pos.b1 { top: 0; left: 6px; }
+.btn-pos.b2 { top: 0; left: 39px; }
+.btn-pos.b3 { top: 0; left: 72px; }
+
+.btn-pos.b4 { top: 32px; left: 6px; }
+.btn-pos.b5 { top: 32px; left: 39px; }
+.btn-pos.b6 { top: 32px; left: 72px; }
+
+.btn-pos.b7 { top: 64px; left: 6px; }
+.btn-pos.b8 { top: 64px; left: 39px; }
+.btn-pos.b9 { top: 64px; left: 72px; }
+
+
+.phone-trans {
+    position: relative;
+    width: 140px;
+    height: 250px;
+    background-color: #d1e2b8;
+    border: 2px solid #222222;
+    border-radius: 30px;
+}
+
+.screen-trans {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 15px);
+    width: 106px;
+    height: 110px;
+    background-color: #ffffff;
+    border: 2px solid #222222;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0b4f8c;
+}
+
+.keypad-trans {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(26px, 142px);
+    width: 90px;
+    height: 90px;
+}
+
+.btn-trans {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #382c47;
+    border-radius: 50%;
+    border: 1.5px solid #111111;
+}
+
+.btn-trans.t1 { transform: translate(0px, 0px); }
+.btn-trans.t2 { transform: translate(33px, 0px); }
+.btn-trans.t3 { transform: translate(66px, 0px); }
+
+.btn-trans.t4 { transform: translate(0px, 32px); }
+.btn-trans.t5 { transform: translate(33px, 32px); }
+.btn-trans.t6 { transform: translate(66px, 32px); }
+
+.btn-trans.t7 { transform: translate(0px, 64px); }
+.btn-trans.t8 { transform: translate(33px, 64px); }
+.btn-trans.t9 { transform: translate(66px, 64px); }
